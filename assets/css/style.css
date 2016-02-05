@@ -1,0 +1,249 @@
+* {
+margin : 0;
+}
+html, body {
+height : 100%;
+font-family : 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+color : #ffffff;
+background-image : url(../images/paisley.png);
+}
+nav {
+font-size : 20px;
+word-spacing : 30px;
+}
+img {
+float : left;
+vertical-align : middle;
+}
+h1 {
+font-family : 'Georgia', 'Times', 'Times New Roman', serif;
+font-size : 35px;
+background : white;
+color : #4aaaa5;
+font-weight : bold;
+}
+h1.logo {
+background : #4aaaa5;
+color : white;
+width : 35%;
+float : left;
+height : 60px;
+margin-left : 50px;
+text-align : center;
+}
+h3 {
+font-family : 'Georgia', 'Times', 'Times New Roman', serif;
+font-size : 24px;
+background : white;
+color : #4aaaa5;
+font-weight : bold;
+border-bottom : 2px solid #EDEDED;
+}
+h3.main {
+margin-left : 60px;
+}
+img.bio {
+padding-right : 10px;
+padding-left : 10px;
+padding-bottom : 10px;
+}
+section {
+margin-left : 30px;
+font-family : 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+color : #777777;
+}
+header {
+border-bottom : 2px solid #EDEDED;
+height : 60px;
+padding-top : 5px;
+text-align : center;
+background-color : #ffffff;
+}
+a {
+font-family : 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+color : #777777;
+font-weight : bold;
+font-size : 20px;
+vertical-align : middle;
+}
+#big-box {
+width : 960px;
+overflow : auto;
+width : 100%;
+height : 80%;
+}
+#main-box {
+width : 960px;
+border-width : 2px;
+border-style : solid;
+border-color : #dddddd;
+clear : left;
+}
+#bio-box {
+width : 590px;
+height : 800px;
+margin-left : 50px;
+margin-top : 60px;
+margin-bottom : 32px;
+float : left;
+border-width : 1px;
+border-style : solid;
+border-color : #dddddd;
+font-family : 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+background : white;
+line-height : 2;
+font-size : 1.1em;
+}
+#sidebar {
+width : 270px;
+height : 250px;
+float : right;
+margin-top : 60px;
+margin-bottom : 23px;
+border-width : 2px;
+border-style : solid;
+border-color : #dddddd;
+margin-right : 10px;
+background : white;
+text-align : center;
+}
+#sidebar img {
+width : 64px;
+height : 64px;
+padding-right : 6px;
+padding-top : 30px;
+margin-left : 12px;
+padding-bottom : 20px;
+}
+a:link {
+text-decoration : none;
+}
+a:visited {
+text-decoration : none;
+}
+a:hover {
+background-color : rgba(255, 204, 0, 0.8);
+}
+a:active {
+text-decoration : none;
+}
+.page-wrap {
+min-height : 100%;
+margin-bottom : 10px;
+}
+.page-wrap:after {
+content : "";
+display : block;
+}
+.site-footer, .page-wrap:after {
+height : 142px;
+}
+.site-footer {
+clear : both;
+background : #666666;
+text-align : center;
+max-height : 80px;
+height : 10%;
+color : white;
+padding-top : 10px;
+border-top : 20px;
+border-style : solid;
+border-color : #4aaaa5;
+width : 100%;
+}
+#img_cont {
+display : table;
+width : 90%;
+margin : 20px auto;
+}
+#img_cont a {
+display : table-cell;
+text-align : center;
+width : 16%;
+}
+#img_cont img {
+<<<<<<< HEAD
+width : 100%;
+max-width : 150px;
+}
+div.wrapper {
+float : left;
+position : relative;
+margin-right : 8px;
+margin-bottom : 8px;
+margin-left : 8px;
+}
+div.description {
+position : absolute;
+bottom : 10px;
+left : 0;
+width : 100%;
+background-color : black;
+font-family : 'Georgia', 'Times', 'Times New Roman', serif;
+font-size : 15px;
+background : #4aaaa5;
+color : white;
+font-weight : bold;
+text-align : center;
+}
+p.description_content {
+padding : 10px;
+margin : 0;
+}
+input[type="button"] {
+color : white;
+background-color : #4aaaa5;
+font-size : 70%;
+font-family : 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+padding : 10px;
+cursor : pointer;
+}
+input[type="button"]:hover {
+background-color : rgba(255, 204, 0, 0.8);
+}
+=======
+  width: 100%;
+  max-width: 150px;
+}
+
+div.wrapper{
+	float:left; /* important */
+	position:relative; /* important(so we can absolutely position the description div */
+	margin-right: 8px;
+	margin-bottom: 8px;
+	margin-left:  8px;
+}
+div.description{
+	position:absolute; /* absolute position (so we can position it where we want)*/
+	bottom:10px; /* position will be on bottom */
+	left:0px;
+	width:100%;
+	/* styling bellow */
+	background-color:black;
+	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+	font-size:15px;
+	background : #4aaaa5;
+	color : white ;
+	font-weight : bold; 
+	text-align: center;
+}
+p.description_content{
+	padding:10px;
+	margin:0px;
+}
+
+input[type=button] {
+    color: white;
+	background-color: #4aaaa5;
+    font-size:70%;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+    padding: 10px;
+    cursor:pointer;
+}
+
+input[type=button]:hover {
+    background-color:rgba(255,204,0,0.8);
+}
+
+/* adding a comment to test git from linux */
+>>>>>>> 27ea9cfc288d75ee3633190483e77950f7092317
